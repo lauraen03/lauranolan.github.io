@@ -24,33 +24,21 @@ ul {
 
 .about-container {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* This creates two equal-width columns */
-    gap: 20px; /* This adds some space between the columns */
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; 
 }
 
 .about-content, .about-image {
-    width: 100%; /* This makes each item take up the full width of its column */
+    width: 100%; 
 }
 
 .about-image img {
-    height: 800px; /* Adjust to desired height */
-    width: auto; /* This will maintain the aspect ratio */
-    max-width: 100%; /* Max width is the width of the container */
+    height: 500px; 
+    width: auto; 
+    max-width: 100%; 
     border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
 
-#contact {
-    background-color: white;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-}
 
-#contact a {
-    color: #fff;
-}
-
-#contact a:hover {
-    text-decoration: underline;
-}
